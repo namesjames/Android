@@ -1,0 +1,282 @@
+  <TextView
+    android:text="Place Your Order!"
+    android:background="@android:color/darker_gray"
+    android:layout_width="360dp"
+    android:layout_height="640dp" />
+    
+    
+    <TextView
+    android:text="Happy Birthday! to you, Happy Birthday, to you, Happy Birthday, dear, Android, Happy Birthday to you!"
+    android:background="@android:color/darker_gray"
+    android:layout_width="wrap_content"
+    android:layout_height="640dp" />
+    
+    <TextView
+    android:text="Excited for the gift you'll surprise me with."
+    android:background="@android:color/darker_gray"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+	  android:textSize="36 sm"/>
+	
+	<TextView
+    android:text="Excited for the gift you'll surprise me with."
+    android:background="#F3E5F5"
+	  android:textColor="#82b1ff"
+    android:layout_width="wrap_content"
+    android:layout_height="640 dp" 
+	  android:textSize="36 sm"/>
+	  
+	  <ImageView
+    android:src="@drawable/patio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop"/>
+    
+    <TextView
+    android:text="Oh the possibilities of TextView!"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	  android:background="#fff"
+	  android:textColor="#82b1ff"
+    android:textSize="45sp" 
+	  android:textStyle="boldItalc"/>
+	  
+	  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+ 
+    <TextView
+        android:text="Guest List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+ 
+    <TextView
+        android:text="Kunal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+ 
+    </LinearLayout>
+    
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Guest List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"  />
+
+    <TextView
+        android:text="Kunal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"  />
+  
+	<TextView
+        android:text="Jacob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"  />
+
+</LinearLayout>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:text="VIP List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80CBC4"
+		android:textColor="#fff"
+		android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Kunal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4DB6AC"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Kagure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26A69A"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Lyla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:textSize="24sp" />
+  	
+	<TextView
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00897B"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
+    
+    
+    
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/ocean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" 
+	android:layout_weight="1"/>
+
+    <TextView
+        android:text="You're invited!"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@android:color/white"
+        android:textSize="54sp"
+        android:background="#009688" 
+	android:layout_weight="0"/>
+
+    <TextView
+        android:text="Bonfire at the beach"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:background="#009688"
+	android:layout_weight="0"/>
+
+</LinearLayout>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Happy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Birthday" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="To You" />
+
+</RelativeLayout>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+		android:id="@+id/ocean_image_view"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ocean" />
+
+    <TextView
+		android:id="@+id/beach_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pebble Beach"
+		android:layout_toRightOf="@id/ocean_image_view"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+		android:id="@+id/Cali_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="California"
+		android:layout_toRightOf="@id/ocean_image_view"
+		android:layout_below="@id/beach_text_view"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 miles away"
+		android:layout_toRightOf="@id/ocean_image_view"
+		android:layout_below="@id/Cali_text_view"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+
+</RelativeLayout>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/ocean"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:text="You're invited!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+		android:paddingTop="16dp"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:paddingBottom="8dp"
+        android:background="#009688"/>
+
+    <TextView
+        android:text="Bonfire at the beach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:paddingBottom="8dp"
+        android:background="#009688"/>
+
+</LinearLayout>
