@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:text="Your Feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80CBC4"
+	    	android:textColor="#e3e3e3"
+	     	android:textStyle="bold"
+        android:textSize="24sp"
+
+		android:layout_weight="0"/>
+
+    <TextView
+        android:text="Design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4DB6AC"
+	    	android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Fashion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26A69A"
+		    android:layout_weight="1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Automotive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+	    	android:layout_weight="1"
+        android:textSize="24sp" />
+  	
+	<TextView
+        android:text="Fine Dining"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00897B"
+		    android:layout_weight="1"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
